@@ -185,16 +185,16 @@ hr{
  color:var(--footer-color)
 
 }
-.post-cards #text-container{
+.post-cards #text{
  text-align: left;
 }
-.post-cards #buttons-container{
+.post-cards .buttons{
  width: 100%;
  display: flex;
  justify-content: space-between;
  align-items: center;
 }
-#buttons-container .like{
+.buttons .like{
  border:1px solid var(--footer-color);
  display: flex;
  justify-content: center;
@@ -205,11 +205,11 @@ hr{
  font-weight: bold;
  cursor: pointer;
 }
-#buttons-container .like:hover{
+.buttons .like:hover{
  background: var(--terrtiary-color);
  border:1px solid transparent;
 }
-#buttons-container .reply{
+.buttons .reply{
  width:fit-content;
  border:1px solid var(--primary-color);
  display: flex;
@@ -222,13 +222,13 @@ hr{
  font-weight: bold;
  cursor: pointer;
 }
-#buttons-container .reply .number-holder{
+.buttons .reply .number-holder{
  background: var(--secondary-color);
  color:var(--primary-color);
  padding:5px 10px;
  font-weight: lighter;
 }
-#buttons-container .reply:hover{
+.buttons .reply:hover{
  background: #d9d9d9;
  color:var(--primary-color);
  border:1px solid transparent;
